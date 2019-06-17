@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang = "en">
+  <!-- Defining the head section!! -->
+  <!-- Importing all the dependencies of the website -->
+    <head>
+      <link rel="preload" as="image" href="load.gif" type="image/gif" crossorigin="anonymous"/>
+            <link rel="icon" href="logo.png">
+        <title>Shri Vasudev Rao Kalyana Mantapa</title>
+        <meta charset = "utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+        <link rel="preload" as="image" href="about.jpg" type="image/jpg" crossorigin="anonymous"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei" rel="stylesheet">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <link rel = "stylesheet" type = "text/css" href = "stylerestart.css">
+    </head>
+    <!-- Defining the body section !! The toughest section of any Website :( -->
+    <body onload="loadend()">
+      <div id="loading"></div>
+      <!-- Code for navigation bar -->
+       <nav class="navbar navbar-expand-md navbar-dark sticky-top bg-custom" >
+            <!-- Brand -->
+             <a class="navbar-brand" href="index.html"><img class="img-fluid" style = "height : 30px"src="logo.png" class="img-responsive"></a>
+          
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle = "collapse" data-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="services.html">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="amenities.html">Amenities</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="gallery.html">Gallery</a>
+                </li> 
+                <li class="nav-item">
+                  <a class="nav-link" href="management.html">Management</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="donors.html">Donors</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="locate_and_contact.html">Location and Contacts</a>
+                </li> 
+              </ul>
+            </div> 
+       </nav>
+      <!-- End Of Navigation Bar -->
+
+      <!-- Start of Services Section -->
+        <section class="removepadding" style = "margin-bottom : 40px">
+          <div class="navbarpadding">
+            <h2 class="text-center">Services Offered</h2>
+            <h4  class = "text-center">We offer a myriad of services as per your requirements</h4>
+          </div>
+
+          <!-- Code For Carousel -->
+
+          <div class = "carousel-background">
+            <div id = "demo" class = "carousel slide carousel-fade" data-ride = "carousel" data-interval = "3200">
+                <ol class = "carousel-indicators">
+                    <li data-target = "#demo" data-slide-to = "0" class = "active"></li>
+                    <li data-target = "#demo" data-slide-to = "1"></li>
+                    <li data-target = "#demo" data-slide-to = "2"></li>
+                    <li data-target = "#demo" data-slide-to = "3"></li>
+                    <li data-target = "#demo" data-slide-to = "4"></li>
+                    <li data-target = "#demo" data-slide-to = "5"></li>
+                    <li data-target = "#demo" data-slide-to = "6"></li>
+                    <li data-target = "#demo" data-slide-to = "7"></li>
+                    <li data-target = "#demo" data-slide-to = "8"></li>
+                    <li data-target = "#demo" data-slide-to = "9"></li>
+                    <li data-target = "#demo" data-slide-to = "10"></li>
+                    <li data-target = "#demo" data-slide-to = "11"></li>
+                    <li data-target = "#demo" data-slide-to = "12"></li>
+                    <li data-target = "#demo" data-slide-to = "13"></li>
+                    <li data-target = "#demo" data-slide-to = "14"></li>
+                    <li data-target = "#demo" data-slide-to = "15"></li>
+                    <li data-target = "#demo" data-slide-to = "16"></li>
+                    <li data-target = "#demo" data-slide-to = "17"></li>
+                    <li data-target = "#demo" data-slide-to = "18"></li>
+                </ol>
+
+                <div class = "carousel-inner">
+                    <div class = "carousel-item active">
+                        <img class="img-fluid"  src = "wed.jpg" alt = "Wedding Image">
+                        <div class = "carousel-caption">
+                            <h4 class="stroke">Wedding Ceremony</h4>
+                            <!-- <h6>A wedding is once in a lifetime event, and we want yours to be one of the grandest & memorable.</h6> -->
+                        </div>
+                    </div>
+
+                    <div class = "carousel-item">
+                        <img class="img-fluid"  src = "cor.jpg" alt = "Corporate Events Image">
+                        <div class = "carousel-caption">
+                            <h4 class="stroke">Corporate Events</h4>
+                            <!-- <h6>We serve your corporate guests with the best luxurious hospitality and graceful services.</h6> -->
+                        </div>
+                    </div>
+
+                    <div class = "carousel-item">
+                        <img class="img-fluid" src = "hbd.jpg" alt = 'Birthday Image'>
+                        <div class = "carousel-caption">
+                            <h4 class="stroke" style = "-webkit-text-stroke: 1px white; -webkit-text-fill-color:#42275a ;">Birthday Parties</h4>
+                            <!-- <h6 style = "color : rgb(14, 4, 30)">Our venue is ideal place for organizing all types of birthday parties for your loved ones.</h6> -->
+                        </div>
+                    </div>
+
+                    <div class = "carousel-item">
+                            <img class="img-fluid" src = "soc.jpg" alt = 'Social Events'>
+                            <div class = "carousel-caption">
+                                <h4 class="stroke">Social Events</h4>
+                                <!-- <h6>Our place is a perfect venue for hosting all kinds of social events making a social event real fun.</h6> -->
+                            </div>
+                    </div>
+
+                    <div class = "carousel-item">
+                            <img class="img-fluid" src = "award.jpg" alt = 'Award Ceremony'>
+                            <div class = "carousel-caption">
+                                <h4 class="stroke">Award Ceremony</h4>
+                                <!-- <h6>Our place is a perfect venue for hosting all kinds of social events making a social event real fun.</h6> -->
+                            </div>
+                    </div>
+
+                    <div class = "carousel-item">
+                            <img class="img-fluid" src = "anniver.jpg" alt = 'Anniversary Events'>
+                            <div class = "carousel-caption">
+                                <h4 class="stroke">Anniversary Events</h4>
+                                <!-- <h6>Our place is a perfect venue for hosting all kinds of social events making a social event real fun.</h6> -->
+                            </div>
+                    </div>
+                    <div class = "carousel-item">
+                            <img class="img-fluid" src = "bdinner.jpg" alt = 'Business Dinners'>
+                            <div class = "carousel-caption">
+                                <h4 class="stroke">Business Dinners</h4>
+                                <!-- <h6>Our place is a perfect venue for hosting all kinds of social events making a social event real fun.</h6> -->
+                            </div>
+                    </div>
+                    <div class = "carousel-item">
+                            <img class="img-fluid" src = "engage.jpg" alt = 'Engagements'>
+                            <div class = "carousel-caption">
+                                <h4 class="stroke">Engagements</h4>
+                                <!-- <h6>Our place is a perfect venue for hosting all kinds of social events making a social event real fun.</h6> -->
+                            </div>
+                    </div>
+                    <div class = "carousel-item">
+                            <img class="img-fluid" src = "gm.jpg" alt = 'Group Meetings'>
+                            <div class = "carousel-caption">
+                                <h4 class="stroke" style = "-webkit-text-stroke: 2px #4286f4;-webkit-text-fill-color: white;">Group Meetings</h4>
+                                <!-- <h6>Our place is a perfect venue for hosting all kinds of social events making a social event real fun.</h6> -->
+                            </div>
+                    </div>
+                    <div class = "carousel-item">
+                            <img class="img-fluid" src = "hd.jpg" alt = 'Half Saree And Dothi'>
+                            <div class = "carousel-caption">
+                                <h4 class="stroke">Half Saree and Dothi Functions</h4>
+                                <!-- <h6>Our place is a perfect venue for hosting all kinds of social events making a social event real fun.</h6> -->
+                            </div>
+                    </div>
+                    <div class = "carousel-item">
+                            <img class="img-fluid" src = "kitty.jpg" alt = 'Kitty Parties'>
+                            <div class = "carousel-caption">
+                                <h4 class="stroke">Kitty Parties</h4>
+                                <!-- <h6>Our place is a perfect venue for hosting all kinds of social events making a social event real fun.</h6> -->
+                            </div>
+                    </div>
+                    <div class = "carousel-item">
+                            <img class="img-fluid" src = "pc.jpg" alt = 'Press Conferences'>
+                            <div class = "carousel-caption">
+                                <h4 class="stroke">Press Conferences</h4>
+                                <!-- <h6>Our place is a perfect venue for hosting all kinds of social events making a social event real fun.</h6> -->
+                            </div>
+                    </div>
+                    <div class = "carousel-item">
+                            <img class="img-fluid" src = "recep.jpg" alt = 'Reception Events'>
+                            <div class = "carousel-caption">
+                                <h4 class="stroke">Receptions Events</h4>
+                                <!-- <h6>Our place is a perfect venue for hosting all kinds of social events making a social event real fun.</h6> -->
+                            </div>
+                    </div>
+                    <div class = "carousel-item">
+                            <img class="img-fluid" src = "se.jpg" alt = 'Seminars'>
+                            <div class = "carousel-caption">
+                                <h4 class="stroke">Seminars</h4>
+                                <!-- <h6>Our place is a perfect venue for hosting all kinds of social events making a social event real fun.</h6> -->
+                            </div>
+                    </div>
+                    <div class = "carousel-item">
+                            <img class="img-fluid" src = "tp.jpg" alt = 'Theamed Parties'>
+                            <div class = "carousel-caption">
+                                <h4 class="stroke" style = "-webkit-text-stroke: 4px #654ea3;">Theamed Parties</h4>
+                                <!-- <h6>Our place is a perfect venue for hosting all kinds of social events making a social event real fun.</h6> -->
+                            </div>
+                    </div>
+                    <div class = "carousel-item">
+                            <img class="img-fluid" src = "tf.jpg" alt = 'Trade Fairs'>
+                            <div class = "carousel-caption">
+                                <h4 class="stroke" style = "-webkit-text-stroke: 2.5px #654ea3;-webkit-text-fill-color: white;">Trade Fairs</h4>
+                                <!-- <h6>Our place is a perfect venue for hosting all kinds of social events making a social event real fun.</h6> -->
+                            </div>
+                    </div>
+                    <div class = "carousel-item">
+                            <img class="img-fluid" src = "ve.jpg" alt = 'VIP Events'>
+                            <div class = "carousel-caption">
+                                <h4 class="stroke">VIP Events</h4>
+                                <!-- <h6>Our place is a perfect venue for hosting all kinds of social events making a social event real fun.</h6> -->
+                            </div>
+                    </div>
+                    <div class = "carousel-item">
+                            <img class="img-fluid" src = "wa.jpg" alt = 'Wedding Anniversaries'>
+                            <div class = "carousel-caption">
+                                <h4 class="stroke">Wedding Anniversaries</h4>
+                                <!-- <h6>Our place is a perfect venue for hosting all kinds of social events making a social event real fun.</h6> -->
+                            </div>
+                    </div>
+
+                    <div class = "carousel-item">
+                        <img class="img-fluid"  src = "oe.jpg" alt = "Other Events">
+                        <div class = "carousel-caption">
+                            <h4 class="stroke">Other Events</h4>
+                            <!-- <h6>Our hall can be used for hosting other events as well.</h6> -->
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </section>
+
+
+
+      <div class = "d-flex justify-content-center" style = "margin-bottom : 5px">
+        <button title = "Click to view about us" type = "button" class = "btn d-block d-sm-none d-none d-sm-block d-md-none" style = "background-color : rgba(59,89,152, 1); width : 100px ; margin-right : 3px"><a href = "index.html" style = "color : white">About Us</a></button>
+        <button title = "Click to view our amenities" type = "button" class = "btn d-block d-sm-none d-none d-sm-block d-md-none" style = "background-color : rgba(59,89,152, 1); width : 100px ;"><a href = "amenities.html" style = "color : white">Amenities</a></button>
+      </div>
+
+
+      <!-- Start of Footer -->
+         <footer>
+           <nav class="navbar navbar-expand-md bg-custom navbar-dark sticky-top" >
+
+            <!-- Start of Copyright Statement -->
+            <div>
+              <ul class="navbar-nav">     
+                <li class="nav-item">
+                  <a class="nav-link"><strong>©Copyright  Shri Yalamanchili Vasudev Rao Kalyana Mantapam</strong></a>
+                </li>
+              </ul>
+            </div>   
+             <!--End of Copyright Statement  -->
+
+             <!-- Start of Developers Statement -->
+            <div class="ml-auto">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="developers.html"><strong>< > DEVELOPERS</strong></a>
+                </li>
+              </ul>
+            </div> 
+            <!-- End of Developers Statement -->
+          </nav>
+         </footer>
+      <!-- End of Footer -->
+      <script type="text/javascript">
+        var preloader = document.getElementById('loading');
+        function loadend() {
+          preloader.style.display = 'none';
+        }
+      </script>
+
+
+  </body>
+</html>

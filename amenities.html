@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang = "en">
+  <!-- Defining the head section!! -->
+  <!-- Importing all the dependencies of the website -->
+    <head>
+      <link rel="preload" as="image" href="load.gif" type="image/gif" crossorigin="anonymous"/>
+            <link rel="icon" href="logo.png">
+        <title>Shri Vasudev Rao Kalyana Mantapa</title>
+        <meta charset = "utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+        <link rel="preload" as="image" href="about.jpg" type="image/jpg" crossorigin="anonymous"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei" rel="stylesheet">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <link rel = "stylesheet" type = "text/css" href = "stylerestart.css">
+    </head>
+    <!-- Defining the body section !! The toughest section of any Website :( -->
+    <body onload="loadend()">
+       <div id="loading"></div>
+      <!-- Code for navigation bar -->
+       <nav class="navbar navbar-expand-md navbar-dark sticky-top bg-custom" >
+            <!-- Brand -->
+       <a class="navbar-brand" href="index.html"><img style = "height : 30px"src="logo.png" class="img-responsive"></a>
+          
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle = "collapse" data-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="services.html">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="amenities.html">Amenities</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="gallery.html">Gallery</a>
+                </li> 
+                <li class="nav-item">
+                  <a class="nav-link" href="management.html">Management</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="donors.html">Donors</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="locate_and_contact.html">Location and Contacts</a>
+                </li> 
+              </ul>
+            </div> 
+       </nav>
+      <!-- End Of Navigation Bar -->
+
+      <section class="navbarpadding">
+        <h2 class="text-center">Amenities</h2>
+        <h4 class="text-center">Hover over the images to know about our amenities</h4>
+        <div class="container">
+          <div class="row">
+            <!-- Ganesha Temple Card -->
+            <div class="col-sm-4 my-3">
+              <div class="card card-flip h-100 bg-amenities-card-back">
+                <div class="card-front text-white bg-amenities">
+                  <div class="card-body">
+                    <img class = "img-fluid" src = "g.jpg" style = "width:100%;height:auto">
+                    <h4 class="card-text text-center">Ganapathi Temple</p>
+                  </div>
+                </div>
+                <div class="card-back">
+                  <div class="card-body text-white">
+                    <h3 class="card-title text-center">Ganapathi Temple</h3>
+                    <p class="card-text text-center">The Ganapathi Temple sanctifies the convention hall</p>
+                    <p class = "card-text text-center"> The guests can seek the blessings of Lord Ganapathi before starting the occassion </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End of Ganesha Temple Card -->
+
+            <!-- Wedding Hall Card -->
+            <div class="col-sm-4 my-3">
+              <div class="card card-flip h-100 bg-amenities-card-back">
+                <div class="card-front text-white bg-amenities">
+                  <div class="card-body">
+                    <img class = "img-fluid" src = "gch.jpg" style = "width:100%;height:auto">
+                    <h4 class="card-text text-center">Wedding Hall</p>
+                  </div>
+                </div>
+                <div class="card-back">
+                  <div class="card-body text-white">
+                    <h3 class="card-title text-center">Wedding Hall</h3>
+                    <p class="card-text text-center">The hall can accommodate 1500 guests on seating and 3000 on floating</p>
+                    <!-- <p class="card-text text-center">Custom decoration of the hall as per user requirment is allowed.</p> -->
+                    <p class="card-text text-center">The convention hall provides 30 sofas and 1000 chairs for seating purposes</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          <!-- End of Wedding Hall Card -->
+
+          <!-- Dining Hall Card -->
+            <div class="col-sm-4 my-3">
+              <div class="card card-flip h-100 bg-amenities-card-back">
+                <div class="card-front text-white bg-amenities">
+                  <div class="card-body">
+                    <img class = "img-fluid" src = "dine.jpg" style = "width:100%;height:auto">
+                    <h4 class="card-text text-center">Dining Hall</h4>
+                  </div>
+                </div>
+                <div class="card-back">
+                  <div class="card-body text-white">
+                    <h3 class="card-title text-center">Dining Hall</h3>
+                    <p class="card-text text-center">The dining hall can house 600 guests in seating and 2000 guests in buffet</p>
+                    <p class="card-text text-center">The dining hall has a VIP dining room that can house around 300 VIPs' at a time</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          <!--  -->
+                  <div class="col-sm-4 my-3">
+                      <div class="card card-flip h-100 bg-amenities-card-back">
+                          <div class="card-front text-white bg-amenities">
+                              <div class="card-body">
+                                      <img class = "img-fluid" src = "os.jpg" style = "width:100%;height:auto">
+                                  <h4 class="card-text text-center">Open Stage</h4>
+                              </div>
+                          </div>
+                          <div class="card-back bg-amenities-card-back">
+                              <div class="card-body text-white">
+                                  <h3 class="card-title text-center">Open Stage</h3>
+                                  <p class="card-text text-center">The Open Stage at the convention hall can house around 1000 guests in seating</p>
+                                  <p class="card-text text-center">The Open Stage is an ideal place for parties</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-sm-4 my-3">
+                      <div class="card card-flip h-100 bg-amenities-card-back">
+                          <div class="card-front text-white bg-amenities">
+                              <div class="card-body">
+                                  <img class = "img-fluid" src = "mini.jpg" style = "width:100%;height:auto">
+                                  <h4 class="card-text text-center">Conference Hall</h4>
+                              </div>
+                          </div>
+                          <div class="card-back">
+                              <div class="card-body text-white">
+                                  <h3 class="card-title text-center">Conference Hall</h3>
+                                  <p class="card-text text-center">A mini convention hall, can be used for hosting small parties and conducting meetings</p> 
+                                  <p class="card-text text-center">It can host 300 guests at a time</p> 
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-sm-4 my-3">
+                      <div class="card card-flip h-100 bg-amenities-card-back">
+                          <div class="card-front text-white bg-amenities">
+                              <div class="card-body">
+                                  <img class = "img-fluid" src = "sroom.jpg" style = "width:100%;height:auto">
+                              <h4 class="card-text text-center">Suit Rooms</h4>
+                              </div>
+                          </div>
+                          <div class="card-back">
+                              <div class="card-body text-white">
+                                  <h3 class="card-title text-center">Suit Rooms</h3>
+                                  <p class="card-text text-center">Two suit rooms are for the Bride and the Groom</p>
+                                  <p class="card-text text-center"> Suit rooms are equipped with beds, attached bathrooms and air-conditioning systems</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-sm-4 my-3">
+                      <div class="card card-flip h-100 bg-amenities-card-back">
+                          <div class="card-front text-white bg-amenities">
+                              <div class="card-body">
+                                  <img class = "img-fluid" src = "gr.jpg" style = "width:100%;height:auto">
+                                  <h4 class="card-text text-center">Guest Rooms</h4>
+                              </div>
+                          </div>
+                          <div class="card-back">
+                              <div class="card-body text-white">
+                                  <h3 class="card-title text-center">Guest Rooms</h3>
+                                  <p class="card-text text-center">12 Delux Rooms with attached bathrooms, beds and air-conditioning systems for out of station guests</p>
+                                  <p class="card-text text-center">A dormitory is available and can host 50 people</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-sm-4 my-3">
+                      <div class="card card-flip h-100 bg-amenities-card-back">
+                          <div class="card-front text-white bg-amenities">
+                              <div class="card-body">
+                                  <img class = "img-fluid" src = "park.jpg" style = "width:100%;height:auto">
+                                  <h4 class="card-text text-center">Parking</h4>
+                              </div>
+                          </div>
+                          <div class="card-back ">
+                              <div class="card-body text-white">
+                                <h3 class="card-title text-center">Parking</h3>
+                                  <p class="card-text text-center">A vast area of 3.5 acres is alloted for parking of vehicles</p>
+                                  <p class="card-text text-center"> It can hold 400+ cars and 500+ two wheelers.</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+                  <!-- RO Card -->
+            <div class="col-sm-4 my-3">
+              <div class="card card-flip h-100 bg-amenities-card-back">
+                <div class="card-front text-white bg-amenities">
+                  <div class="card-body">
+                    <img class = "img-fluid" src = "RO.jpg" style = "width:100%;height:auto">
+                    <h4 class="card-text text-center">RO Water Purifier Plant</p>
+                  </div>
+                </div>
+                <div class="card-back">
+                  <div class="card-body text-white">
+                    <h3 class="card-title text-center">RO Water Purifier Plant</h3>
+                    <p class="card-text text-center">Water purifier capacity is 2000 Ltr./hour</p>
+                    <p class="card-text text-center">Drinking water and chilled water facility is available.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          <!-- End of RO Water Purifier Card -->
+                </div>
+              </div>         
+        </section>
+      <!-- End of Amenities Section -->
+
+      <div class = "d-flex justify-content-center" style = "margin-bottom : 5px">
+        <button title = "Click to view our services" type = "button" class = "btn d-block d-sm-none d-none d-sm-block d-md-none" style = "background-color : rgba(59,89,152, 1); width : 100px ; margin-right : 3px"><a href = "services.html" style = "color : white">Services</a></button>
+        <button title = "Click to view gallery" type = "button" class = "btn d-block d-sm-none d-none d-sm-block d-md-none" style = "background-color : rgba(59,89,152, 1); width : 100px ;"><a href = "gallery.html" style = "color : white">Gallery</a></button>
+      </div>
+
+    <!-- Start of Footer -->
+         <footer>
+           <nav class="navbar navbar-expand-md bg-custom navbar-dark sticky-top" >
+
+            <!-- Start of Copyright Statement -->
+            <div>
+              <ul class="navbar-nav">     
+                <li class="nav-item">
+                  <a class="nav-link"><strong>©Copyright  Shri Yalamanchili Vasudev Rao Kalyana Mantapam</strong></a>
+                </li>
+              </ul>
+            </div>   
+             <!--End of Copyright Statement  -->
+
+             <!-- Start of Developers Statement -->
+            <div class="ml-auto">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="developers.html"><strong>< > DEVELOPERS</strong></a>
+                </li>
+              </ul>
+            </div> 
+            <!-- End of Developers Statement -->
+          </nav>
+         </footer>
+      <!-- End of Footer -->
+
+      <script type="text/javascript">
+        var preloader = document.getElementById('loading');
+        function loadend() {
+          preloader.style.display = 'none';
+        }
+      </script>
+
+  </body>
+  </html>
